@@ -1,0 +1,147 @@
+.left-panel {
+  border-radius: 1.2rem;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  padding: 1rem;
+  margin-right: 1rem;
+  min-height: 0;
+}
+
+.left-title {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-secondary);
+}
+
+.left-section {
+  margin-bottom: 1rem;
+}
+
+.left-section-title {
+  margin: 0 0 0.4rem;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+
+.left-pill-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.left-pill {
+  border-radius: 999px;
+  border: 1px solid rgba(55, 65, 81, 1);
+  background: rgba(15, 23, 42, 0.85);
+  padding: 0.2rem 0.65rem;
+  font-size: 0.8rem;
+  color: #e5e7eb;
+  cursor: pointer;
+}
+
+.left-pill-active {
+  border-color: rgba(56, 189, 248, 0.8);
+  background: rgba(15, 23, 42, 0.95);
+}
+
+.left-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+
+.left-manage-btn {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  transition: background 0.2s;
+  opacity: 0.6;
+}
+
+.left-manage-btn:hover {
+  opacity: 1;
+  background: var(--bg-tertiary);
+}
+
+.left-tag-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.left-tag {
+  border-radius: 0.5rem;
+  border: 1px solid;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.left-tag:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-tag-active {
+  font-weight: 600;
+}
+
+.left-empty-hint {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  font-style: italic;
+}
+
+.left-more-hint {
+  font-size: 0.7rem;
+  color: var(--text-tertiary);
+  font-style: italic;
+}
+
+.left-section-manage {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.left-manage-button {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  padding: 0.6rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 0.5rem;
+}
+
+.left-manage-button:hover {
+  background: var(--bg-tertiary);
+  border-color: var(--accent-blue);
+  transform: translateY(-1px);
+}
+
+.left-manage-button:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+  .left-panel {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+
+
